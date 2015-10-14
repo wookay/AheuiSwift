@@ -8,7 +8,7 @@ before_install:
 script:
   - xcodebuild -version
   - xcodebuild test \
-      -workspace App/AheuiSwift.xcodeproj/project.xcworkspace \
+      -project App/AheuiSwift.xcodeproj \
       -scheme AheuiSwift \
       -sdk iphonesimulator \
       | xcpretty -c
