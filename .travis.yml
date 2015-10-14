@@ -7,6 +7,7 @@ before_install:
   - sudo gem install xcpretty
 script:
   - xcodebuild -version
+  - xcodebuild --help
   - xcodebuild test \
       -project App/AheuiSwift.xcodeproj \
       -scheme AheuiSwift \
