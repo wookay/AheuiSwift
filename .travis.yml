@@ -1,0 +1,15 @@
+language: objective-c
+osx_image: xcode7
+xcode_workspace: App/AheuiSwift.xcodeproj/project.xcworkspace
+xcode_scheme: AheuiSwift
+xcode_sdk: iphonesimulator
+before_install:
+  - sudo gem install xcpretty
+script:
+  - xcodebuild \
+      -workspace App/AheuiSwift.xcodeproj/project.xcworkspace \
+      -scheme AheuiSwift \
+      -sdk iphonesimulator \
+      test | xcpretty -c
+notifications:
+  email: false
