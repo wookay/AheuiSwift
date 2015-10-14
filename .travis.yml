@@ -5,7 +5,8 @@ xcode_scheme: AheuiSwift
 xcode_sdk: iphonesimulator
 before_install:
   - xcodebuild -version
+  - sudo gem install xcpretty
 script:
-  - xctool -workspace App/AheuiSwift.xcodeproj/project.xcworkspace -scheme AheuiSwift -sdk iphonesimulator test
+  - xcodebuild test -workspace App/AheuiSwift.xcodeproj/project.xcworkspace -scheme AheuiSwift -sdk iphonesimulator | xcpretty -c
 notifications:
   email: false
