@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C0D65551BCE281D00A82319 /* AheuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D65541BCE281D00A82319 /* AheuiTests.swift */; settings = {ASSET_TAGS = (); }; };
 		1C0D655B1BCE289800A82319 /* Aheui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D655A1BCE289800A82319 /* Aheui.swift */; settings = {ASSET_TAGS = (); }; };
 		1C0D655C1BCE289800A82319 /* Aheui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D655A1BCE289800A82319 /* Aheui.swift */; settings = {ASSET_TAGS = (); }; };
 		1C0D655D1BCE289800A82319 /* Aheui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D655A1BCE289800A82319 /* Aheui.swift */; settings = {ASSET_TAGS = (); }; };
@@ -18,6 +17,11 @@
 		1C3D79291BCE1A860046FEEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3D79271BCE1A860046FEEB /* LaunchScreen.storyboard */; };
 		1C3D79341BCE1A860046FEEB /* AheuiSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D79331BCE1A860046FEEB /* AheuiSwiftTests.swift */; };
 		1C3D793F1BCE1A860046FEEB /* AheuiSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D793E1BCE1A860046FEEB /* AheuiSwiftUITests.swift */; };
+		1C4C3B661BCEFED20023336D /* Hangul.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C3B651BCEFED20023336D /* Hangul.swift */; settings = {ASSET_TAGS = (); }; };
+		1C4C3B671BCEFED20023336D /* Hangul.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C3B651BCEFED20023336D /* Hangul.swift */; settings = {ASSET_TAGS = (); }; };
+		1C4C3B681BCEFED20023336D /* Hangul.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C3B651BCEFED20023336D /* Hangul.swift */; settings = {ASSET_TAGS = (); }; };
+		1C4C3B6E1BCF05B30023336D /* AheuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C3B6C1BCF05B30023336D /* AheuiTests.swift */; settings = {ASSET_TAGS = (); }; };
+		1C4C3B6F1BCF05B30023336D /* HangulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C3B6D1BCF05B30023336D /* HangulTests.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C0D65541BCE281D00A82319 /* AheuiTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AheuiTests.swift; sourceTree = "<group>"; };
 		1C0D655A1BCE289800A82319 /* Aheui.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aheui.swift; sourceTree = "<group>"; };
 		1C3D791B1BCE1A860046FEEB /* AheuiSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AheuiSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C3D791E1BCE1A860046FEEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +56,9 @@
 		1C3D793A1BCE1A860046FEEB /* AheuiSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AheuiSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C3D793E1BCE1A860046FEEB /* AheuiSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AheuiSwiftUITests.swift; sourceTree = "<group>"; };
 		1C3D79401BCE1A860046FEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C4C3B651BCEFED20023336D /* Hangul.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hangul.swift; sourceTree = "<group>"; };
+		1C4C3B6C1BCF05B30023336D /* AheuiTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AheuiTests.swift; sourceTree = "<group>"; };
+		1C4C3B6D1BCF05B30023336D /* HangulTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangulTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				1C0D655A1BCE289800A82319 /* Aheui.swift */,
+				1C4C3B651BCEFED20023336D /* Hangul.swift */,
 			);
 			name = Aheui;
 			path = ../Aheui;
@@ -92,6 +99,7 @@
 		1C3D79121BCE1A860046FEEB = {
 			isa = PBXGroup;
 			children = (
+				1C4C3B6B1BCF05B30023336D /* TestCases */,
 				1C0D65471BCE272D00A82319 /* Aheui */,
 				1C3D791D1BCE1A860046FEEB /* AheuiSwift */,
 				1C3D79321BCE1A860046FEEB /* AheuiSwiftTests */,
@@ -126,7 +134,6 @@
 		1C3D79321BCE1A860046FEEB /* AheuiSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				1C0D65541BCE281D00A82319 /* AheuiTests.swift */,
 				1C3D79331BCE1A860046FEEB /* AheuiSwiftTests.swift */,
 				1C3D79351BCE1A860046FEEB /* Info.plist */,
 			);
@@ -140,6 +147,16 @@
 				1C3D79401BCE1A860046FEEB /* Info.plist */,
 			);
 			path = AheuiSwiftUITests;
+			sourceTree = "<group>";
+		};
+		1C4C3B6B1BCF05B30023336D /* TestCases */ = {
+			isa = PBXGroup;
+			children = (
+				1C4C3B6C1BCF05B30023336D /* AheuiTests.swift */,
+				1C4C3B6D1BCF05B30023336D /* HangulTests.swift */,
+			);
+			name = TestCases;
+			path = ../TestCases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +291,7 @@
 			files = (
 				1C3D79211BCE1A860046FEEB /* ViewController.swift in Sources */,
 				1C3D791F1BCE1A860046FEEB /* AppDelegate.swift in Sources */,
+				1C4C3B661BCEFED20023336D /* Hangul.swift in Sources */,
 				1C0D655B1BCE289800A82319 /* Aheui.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,8 +300,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C0D65551BCE281D00A82319 /* AheuiTests.swift in Sources */,
 				1C3D79341BCE1A860046FEEB /* AheuiSwiftTests.swift in Sources */,
+				1C4C3B6F1BCF05B30023336D /* HangulTests.swift in Sources */,
+				1C4C3B671BCEFED20023336D /* Hangul.swift in Sources */,
+				1C4C3B6E1BCF05B30023336D /* AheuiTests.swift in Sources */,
 				1C0D655C1BCE289800A82319 /* Aheui.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C4C3B681BCEFED20023336D /* Hangul.swift in Sources */,
 				1C0D655D1BCE289800A82319 /* Aheui.swift in Sources */,
 				1C3D793F1BCE1A860046FEEB /* AheuiSwiftUITests.swift in Sources */,
 			);
